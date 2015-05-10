@@ -2,206 +2,203 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Pink Main</title>
-</head>
+    <title>Pink</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic,latin' rel='stylesheet' type='text/css'></head>
 <body>
-    <header>
-        <div class="page-wrapper">
-            <div class="header-top">
-                <div class="container">
-                    <div class="inner-container">
-                        <a href="#" class="logo-main">Pink</a>
+    <div class="page-wrapper">
+        <header class="page-header">
+            <div class="page-header__container-top">
+                <div class="headline">
+                    <div class="container">
+                        <a href="#" class="headline__logo">pink</a>
                         <nav class="nav-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Информация</a>
+                            <ul class="nav-menu__list">
+                                <li class="nav-menu__item">
+                                    <a href="#" class="nav-menu__link">Информация</a>
                                 </li>
-                                <li>
-                                    <a href="#">Возможности</a>
+                                <li  class="nav-menu__item">
+                                    <a href="#" class="nav-menu__link">Возможности</a>
                                 </li>
-                                <li>
-                                    <a href="#">Отзывы</a>
+                                <li class="nav-menu__item">
+                                    <a href="#" class="nav-menu__link">Отзывы</a>
                                 </li>
-                                <li>
-                                    <a href="#">Стоимость</a>
+                                <li class="nav-menu__item">
+                                    <a href="#" class="nav-menu__link">Стоимость</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                    <p class="header-body">Взгляните на жизнь иначе!</p>
                 </div>
-            </div>
-            <div class="header-down">
                 <div class="container">
-                    <h2 class="download-link">
-                        <a href="#">Скачать приложение</a>
-                    </h2>
-                    <p class="download-details">
+                    <p class="page-header__title">Взгляните на жизнь иначе!</p>
+                </div>
+                <img src="img/pic-phone-hand.png" alt="phone" class="page-header__pic">
+            </div>
+            <div class="download">
+                <div class="container">
+                    <a href="#" class="download__btn">Скачать приложение</a>
+                    <div class="download__icon">
+                        <i class="icon icon-apple">apple</i>
+                        <i class="icon icon-android">android</i>
+                        <i class="icon icon-windows">windows</i>
+                    </div>
+                    <p class="download__text">
                         Доступно для IPhone, IPad, Android, Windows Phone, OS X, Windows 8
                     </p>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="page-wrapper">
+        </header>
+        <main class="page-content">
             <div class="container">
-                <p class="center-content">Устали от серости мегаполиса?</p>
-                <p class="center-content">Нам есть, что вам предложить!</p>
+                <p class="text-label page-content__text">Устали от серости мегаполиса?</p>
+                <p class="text-label page-content__text">Нам есть, что вам предложить!</p>
             </div>
-            <div class="bg-block-wrap">
+            <div class="box box--gray">
                 <div class="container">
-                    <h2 class="main-header">Поднимает настроение</h2>
-                    <p class="main-body">
-                        Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов
-                    </p>
-                    <h2 class="main-header">Меняет мир вокруг</h2>
-                    <p class="main-body">
-                        Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
-                    </p>
-                    <h2 class="main-header">Заводит новых друзей</h2>
-                    <p class="main-body">
-                        Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
-                    </p>
+                    <div class="benefits">
+                        <div class="benefits__item">
+                            <h2 class="benefits__title">Поднимает настроение</h2>
+                            <p class="benefits__text">
+                                Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов
+                            </p>
+                        </div>
+                        <div class="benefits__item">
+                            <h2 class="benefits__title">Меняет мир вокруг</h2>
+                            <p class="benefits__text">
+                                Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+                            </p>
+                        </div>
+                        <div class="benefits__item">
+                            <h2 class="benefits__title">Заводит новых друзей</h2>
+                            <p class="benefits__text">
+                                Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+                            </p>
+                        </div>
+                        <img src="img/pic-phone-smile-cut.png" alt="smile" class="benefits__picture"></div>
                 </div>
             </div>
             <div class="container">
-                <div class="slider-wrap">
-                    <ul class="slider-items">
-                        <li class="slider-item">
-                            <cite class="slider-header">Николай Петров</cite>
-                            <blockquote class="slider-body">
-                                "Это приложение перевернуло мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+                <div class="slider">
+                    <div class="slider__list">
+                        <div class="slider__item">
+                            <blockquote class="context">
+                                <cite class="context__header">Николай Петров</cite>
+                                <p class="context__text">
+                                    "Это приложение перевернуло мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+                                </p>
                             </blockquote>
-                        </li>
-                        <li class="slider-item">
-                            <cite class="slider-header">Николай Петров</cite>
-                            <blockquote class="slider-body">
-                                "Это приложение перевернуло мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+                        </div>
+                        <div class="slider__item">
+                            <blockquote class="context">
+                                <cite class="context__header">Николай Петров</cite>
+                                <p class="context__text">
+                                    "Это приложение перевернуло мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+                                </p>
                             </blockquote>
-                        </li>
-                        <li class="slider-item">
-                            <cite class="slider-header">Николай Петров</cite>
-                            <blockquote class="slider-body">
-                                "Это приложение перевернуло мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+                        </div>
+                        <div class="slider__item">
+                            <blockquote class="context">
+                                <cite class="context__header">Николай Петров</cite>
+                                <p class="context__text">
+                                    "Это приложение перевернуло мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+                                </p>
                             </blockquote>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="bg-block-wrap">
-                <div class="slider-wrap">
-                    <ul class="slider-items">
-                        <li class="slider-item">
-                            <table class="offer-table">
-                                <tr>
-                                    <th></th>
-                                    <th colspan="2" class="ribbon">
-                                        <span class="offer-header">Стандарт</span>
-                                        <span class="offer-cost center-content">3,99 USD</span>
+            <div class="box box--gray">
+                <div class="slider">
+                    <div class="slider__list">
+                        <div class="slider__item">
+                            <table class="table">
+                                <tr class="table__header ribbon">
+                                    <th colspan="2">
+                                        <span class="table__title">Стандарт</span>
+                                        <span class="table__price">3,99 USD</span>
                                     </th>
-                                    <th></th>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Розовый фильтр</td>
-                                    <td class="offer-support">поддерживается</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Розовый фильтр</td>
+                                    <td class="table__status icon icon-success">поддерживается</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Смайлики</td>
-                                    <td class="offer-support">поддерживаются</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Смайлики</td>
+                                    <td class="table__status icon icon-success">поддерживаются</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Комментарии</td>
-                                    <td class="offer-no-support">не поддерживаются</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Комментарии</td>
+                                    <td class="table__status icon icon-not-success">не поддерживаются</td>
                                 </tr>
                             </table>
-                        </li>
-                        <li class="slider-item">
-                            <table class="offer-table">
-                                <tr>
-                                    <th></th>
-                                    <th colspan="2" class="ribbon">
-                                        <span class="offer-header">Стандарт</span>
-                                        <span class="offer-cost center-content">3,99 USD</span>
+                        </div>
+                        <div class="slider__item">
+                            <table class="table">
+                                <tr class="table__header ribbon">
+                                    <th colspan="2">
+                                        <span class="table__title">Стандарт</span>
+                                        <span class="table__price">3,99 USD</span>
                                     </th>
-                                    <th></th>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Розовый фильтр</td>
-                                    <td class="offer-support">поддерживается</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Розовый фильтр</td>
+                                    <td class="table__status icon icon-success">поддерживается</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Смайлики</td>
-                                    <td class="offer-support">поддерживаются</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Смайлики</td>
+                                    <td class="table__status icon icon-success">поддерживаются</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Комментарии</td>
-                                    <td class="offer-no-support">не поддерживаются</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Комментарии</td>
+                                    <td class="table__status icon icon-not-success">не поддерживаются</td>
                                 </tr>
                             </table>
-                        </li>
-                        <li class="slider-item">
-                            <table class="offer-table">
-                                <tr>
-                                    <th></th>
-                                    <th colspan="2" class="ribbon">
-                                        <span class="offer-header">Стандарт</span>
-                                        <span class="offer-cost center-content">3,99 USD</span>
+                        </div>
+                        <div class="slider__item">
+                            <table class="table">
+                                <tr class="table__header ribbon">
+                                    <th colspan="2">
+                                        <span class="table__title">Стандарт</span>
+                                        <span class="table__price">3,99 USD</span>
                                     </th>
-                                    <th></th>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Розовый фильтр</td>
-                                    <td class="offer-support">поддерживается</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Розовый фильтр</td>
+                                    <td class="table__status icon icon-success">поддерживается</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Смайлики</td>
-                                    <td class="offer-support">поддерживаются</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Смайлики</td>
+                                    <td class="table__status icon icon-success">поддерживаются</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="offer-option">Комментарии</td>
-                                    <td class="offer-no-support">не поддерживаются</td>
-                                    <td></td>
+                                <tr class="table__body">
+                                    <td>Комментарии</td>
+                                    <td class="table__status icon icon-not-success">не поддерживаются</td>
                                 </tr>
                             </table>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="page-wrapper">
-            <p class="center-content">Остались вопросы?</p>
-            <p class="center-content">Свяжитесь с нами!</p>
-            <dl class="contact-block">
-                <dt class="contact-header">Звоните:</dt>
-                <dd class="contact-body center-content">+7 (812) 555-66-66</dd>
-                <dt class="contact-header">Пишите:</dt>
-                <dd class="contact-body center-content">
-                    <a href="mailto:info@technomart.ru">mail@htmlacademy.ru</a>
-                </dd>
-                <dt class="contact-header">Приезжайте в гости:</dt>
-                <dd class="contact-body center-content">ул. Большая Конюшенная, 19/8</dd>
-            </dl>
-        </div>
-    </footer>
+        </main>
+        <footer class="page-footer">
+            <div class="container">
+                <p class="text-label page-footer__text">Остались вопросы?</p>
+                <p class="text-label page-footer__text">Свяжитесь с нами!</p>
+                <dl class="contacts">
+                    <dt class="contacts__title">Звоните:</dt>
+                    <dd class="contacts__text">+7 (812) 555-66-66</dd>
+                    <dt class="contacts__title">Пишите:</dt>
+                    <dd class="contacts__text">
+                        <a href="mailto:mail@htmlacademy.ru" class="contacts__link" target="_blank">mail@htmlacademy.ru</a>
+                    </dd>
+                    <dt class="contacts__title">Приезжайте в гости:</dt>
+                    <dd class="contacts__text">ул. Большая Конюшенная, 19/8</dd>
+                </dl>
+            </div>
+            <div class="map">
+                <div class="map__map-pic" id="online-map"></div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
