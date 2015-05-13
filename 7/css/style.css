@@ -194,7 +194,7 @@ body {
   border: 3px solid #ffffff;
   padding: 14px 22px 17px 22px;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 100;
   font-style: normal;
   text-transform: none;
   line-height: 18px;
@@ -252,7 +252,6 @@ body {
   font-style: normal;
   text-transform: none;
   line-height: 30px;
-  letter-spacing: 1px;
 }
 .benefits__text {
   margin-top: 0;
@@ -283,7 +282,6 @@ body {
   font-style: normal;
   text-transform: none;
   line-height: 27px;
-  letter-spacing: 1px;
 }
 .table-offer {
   width: 280px;
